@@ -10,14 +10,14 @@
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:hint="Bilangan 1"
+    android:hint="@string/hint_1"
     android:id="@+id/EdtBil1"
     android:layout_margin="10dp"/>
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Bilangan 2"
+        android:hint="@string/hint_2"
         android:id="@+id/EdtBil2"
         android:layout_margin="10dp"/>
 
@@ -32,25 +32,25 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/btnPlus"
-            android:text="+"/>
+            android:text="@string/tambah"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/btnMinus"
-            android:text="-"/>
+            android:text="@string/kurang"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/btnKali"
-            android:text="x"/>
+            android:text="@string/kali"/>
         <Button
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:id="@+id/btnBagi"
-            android:text=":"/>
+            android:text="@string/bagi"/>
 
     </LinearLayout>
 
@@ -58,7 +58,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:id="@+id/btnClear"
-        android:text="Clear"/>
+        android:text="@string/clear"/>
 
     <TextView
         android:layout_width="match_parent"

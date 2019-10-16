@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MVP Arithmetic</string>
+    <string name="hint_1">Bilangan 1</string>
+    <string name="hint_2">Bilangan 2</string>
+    <string name="clear">Clear</string>
+    <string name="bagi">:</string>
+    <string name="kali">x</string>
+    <string name="kurang">-</string>
+    <string name="tambah">+</string>
 </resources>
