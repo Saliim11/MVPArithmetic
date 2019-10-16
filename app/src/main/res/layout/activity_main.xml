@@ -51,18 +51,19 @@
             android:layout_weight="1"
             android:id="@+id/btnBagi"
             android:text=":"/>
-        <Button
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:id="@+id/btnClear"
-            android:text="Clear"/>
+
     </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnClear"
+        android:text="Clear"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:textSize="45dp"
+        android:textSize="45sp"
         android:id="@+id/txtHasil"
         android:text=""
         android:textAlignment="center"/>
