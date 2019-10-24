@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity implements LoginView {
 
     @OnClick({R.id.btnPlus, R.id.btnMinus, R.id.btnKali, R.id.btnBagi, R.id.btnClear})
     public void onViewClicked(View view) {
+        // Mengubah EditText menjadi String
         String Bilangan1 = EdtBil1.getText().toString();
         String Bilangan2 = EdtBil2.getText().toString();
 
